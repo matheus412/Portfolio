@@ -35,7 +35,7 @@ header > h1{
 header > p{
     font-family: var(--font1);
 
-    color: var(--cor3);
+    color: grey;
     padding-top: 25px;
 }
 
@@ -48,6 +48,7 @@ header > p{
     padding-top: 25px;
     margin-right: 10px;
     width: 30px;
+
 }
 
 
@@ -75,12 +76,21 @@ main{
 
 article> div p{
     font-family: var(--font1);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     color: #F2F2F2;
+    font-size: 0.9em;
 }
 
 .logos{
     width:40px;
+}
+
+.grau{
+    color: grey;
+    padding: 5px;
+    font-size: 0.6em;
+
 }
 
 footer{
