@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Mulish:wght@200&family=Sriracha&display=swap');
+
+:root{
+    --cor1: #030F26;
+    --cor2: #0540F2;
+    --cor3: #F2F2F2;
+
+    --font1: "Heebo", arial;
+
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+header > h1{
+    color: #F2F2F2;
+    font-family: var(--font1);
+    padding-top: 5px;
+    font-size: 1.5em;
+
+}
+
+header > p{
+    font-family: var(--font1);
+
+    color: var(--cor3);
+    padding-top: 25px;
+}
+
+#foto{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.redes-sociais{
+    padding-top: 25px;
+    margin-right: 10px;
+    width: 30px;
+}
+
+
+
+main{
+    padding-top: 50px;
+    text-align: center;
+}
+.caixa{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.641);
+    position: relative;
+
+
+}
+
+.caixa:hover{
+    top:-2px;
+    box-shadow: 2px 2px var(--cor2);
+
+}
+
+
+article> div p{
+    font-family: var(--font1);
+    padding: 20px;
+    color: #F2F2F2;
+}
+
+.logos{
+    width:40px;
+}
+
+footer{
+
+    font-family: var(--font1);
+    color: var(--cor3);
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
