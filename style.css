@@ -51,12 +51,18 @@ header > p{
 
 }
 
-
+body{
+    border: 1px solid var(--cor3);
+    margin: 50px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
 
 main{
     padding-top: 50px;
     text-align: center;
 }
+
 .caixa{
     width: 120px;
     height: 120px;
