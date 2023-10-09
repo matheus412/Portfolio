@@ -64,10 +64,8 @@ main{
     height: 120px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.641);
-    border: 1px solid var(--cor2);
+    border-radius: 3px;
     
-
-
 }
 
 
@@ -95,13 +93,13 @@ article> div p{
     width: 100px;
     height: 5px;
     border-radius: 10px;
-    background-color: var(--cor3);
+    background-color:  var(--cor3);
 }
 
 .barra div{
     height: 100%;
     border-radius: 10px;
-    background-color: var(--cor2);
+    background-color:  var(--cor2);
 }
 
 footer{
