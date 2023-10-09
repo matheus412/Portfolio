@@ -20,15 +20,21 @@ body{
     background-color: var(--cor1);
 }
 
+#foto{
+    width: 150px;
+    border-radius: 50%;
+}
+
 header{
     text-align: center;
     margin-top: 50px;
 }
+
 header > h1{
     color: #F2F2F2;
     font-family: var(--font1);
     padding-top: 5px;
-    font-size: 1.5em;
+    font-size: 1.4em;
 
 }
 
@@ -39,10 +45,6 @@ header > p{
     padding-top: 25px;
 }
 
-#foto{
-    width: 200px;
-    border-radius: 50%;
-}
 
 .redes-sociais{
     padding-top: 25px;
@@ -62,14 +64,9 @@ main{
     height: 120px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.641);
-    position: relative;
+    border: 1px solid var(--cor2);
+    
 
-
-}
-
-.caixa:hover{
-    top:-2px;
-    box-shadow: 2px 2px var(--cor2);
 
 }
 
@@ -91,6 +88,20 @@ article> div p{
     padding: 5px;
     font-size: 0.6em;
 
+}
+
+.barra{
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--cor3);
+}
+
+.barra div{
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--cor2);
 }
 
 footer{
