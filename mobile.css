@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     menu a{
         padding: 10px;
     }
 
     #sobre{
-        width: 400px;
+        width: 350px;
     }
 
 }
