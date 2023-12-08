@@ -24,6 +24,10 @@
         margin-right: 40px;
     }
 
+    #conteiner{
+         flex-direction: column;
+    }
+
     .caixa-projeto1{
         width: 300px;
         height: 145px;
