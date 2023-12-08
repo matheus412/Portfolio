@@ -22,14 +22,14 @@
     .caixa-projeto1{
         width: 300px;
         height: 145px;
-        margin: auto;
+        border-radius: 13px 13px 0px 0px;
 
     }
 
     .caixa-projeto2{
-        margin: auto;
         width: 300px;
         height: 145px;
+        border-radius: 13px 13px 0px 0px;
 
     }
     
