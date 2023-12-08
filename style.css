@@ -194,6 +194,7 @@ main{
     background-size: cover;
     width: 390px;
     height: 235px;
+    margin-top: 20px;
     border-radius: 18px 18px 0px 0px;
     
 }
