@@ -11,13 +11,18 @@
         width: 350px;
     }
 
+
     .botton-con{
-        padding: 13px 26px;
-        margin-right: 10px;
+        display: block;
+        margin: auto;
+        width: 195px;
     }
 
     .botton-cv{
-        padding: 13px 26px;
+        display: block;
+        margin: auto;
+        width: 195px;
+        margin-top: 10px;
     }
     
     .img-lin{
