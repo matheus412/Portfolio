@@ -234,7 +234,7 @@ main{
 
 #contato{
     background-color: #191919;
-    height: 400px;
+    height: 418px;
     text-align: center;
 }
 
@@ -264,6 +264,7 @@ main{
     font-size: 0.8em;
     text-decoration: none;
     color: white;
+    padding-bottom: 20px;
 
 }
 
