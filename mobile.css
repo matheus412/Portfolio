@@ -1,14 +1,18 @@
 @charset "utf-8";
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px ){
 
     menu a{
-        padding: 10px;
+        padding: 8px;
+    }
+
+    #formacao{
+        font-size: 1.8em;
     }
 
     
     #sobre{
-        width: 350px;
+        width: 340px;
     }
 
 
@@ -71,7 +75,7 @@
     }
 
     #resu{
-        width: 350px;
+        width: 340px;
     }
 
 }
