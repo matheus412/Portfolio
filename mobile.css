@@ -6,8 +6,29 @@
         padding: 10px;
     }
 
+    
     #sobre{
         width: 350px;
     }
+
+    .caixa-projeto1{
+        width: 300px;
+        height: 145px;
+
+    }
+    .botton-con{
+        padding: 13px 26px;
+    }
+
+    .botton-cv{
+        padding: 13px 26px;
+    }
+
+    .caixa-projeto2{
+        width: 300px;
+        height: 145px;
+
+    }
+    
 
 }
