@@ -127,7 +127,7 @@ main{
 }
 
 #titulo-projetos{
-    background: var(--Orange-Gradient, linear-gradient(180deg, #FF8660 0%, #D5491D 100%));
+    background-color: white;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -217,7 +217,7 @@ main{
 }
 
 #titulo-expe{
-    background: var(--Blue-Gradient, linear-gradient(180deg, #5BADFF 0%, #1373D1 100%));
+    background-color: white;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -234,7 +234,7 @@ main{
 
 #contato{
     background-color: #191919;
-    height: 418px;
+    height: 350px;
     text-align: center;
 }
 
