@@ -2,11 +2,17 @@
 
 @media screen and (max-width: 767px ){
 
+    header{
+        display: flex;
+        align-items: center;
+    }
+
     menu {
-        position: relative;
+        position: fixed;
         background-color: white;
         padding: 0;
         width: 100vw;
+        margin-top: 237px;
 
     }
 
@@ -33,15 +39,16 @@
 
     menu > ul > li > a:hover{
         background-color: #C5C5C5;
+        font-size: 1em;
     }
     
     #burguer {
         display: block;
         font-size: 2.5em;
-        text-align: right;
-        padding: 20px;
+        margin: 20px;
         color:  white;
         cursor: pointer;
+        margin-left: auto;
         
     }
 
