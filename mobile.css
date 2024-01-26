@@ -1,14 +1,14 @@
 @charset "utf-8";
 
 @media screen and (max-width: 767px ){
-
+ 
     header{
         display: flex;
         align-items: center;
     }
 
     menu {
-        position: fixed;
+        position: relative;
         background-color: white;
         padding: 0;
         width: 100vw;
@@ -17,7 +17,6 @@
     }
 
     menu > ul {
-        list-style-type: none;
         display: none; 
     }
 
@@ -44,11 +43,12 @@
     
     #burguer {
         display: block;
+        position: absolute;
         font-size: 2.5em;
         margin: 20px;
         color:  white;
         cursor: pointer;
-        margin-left: auto;
+
         
     }
 
