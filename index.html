@@ -80,17 +80,21 @@
         
     </footer>
     <script>
-         document.querySelectorAll('menu > ul > li > a').forEach(function(link) {
+        document.querySelectorAll('menu > ul > li > a').forEach(function(link) {
             link.addEventListener('click', function() {
-            
                 document.querySelector('menu > ul').classList.remove('active');
+                document.getElementById('burguer').textContent = 'Menu';
             });
         });
-
 
         document.getElementById('burguer').addEventListener('click', function() {
             var menuUl = document.querySelector('menu > ul');
             menuUl.classList.toggle('active');
+            if (menuUl.classList.contains('active')) {
+                document.getElementById('burguer').textContent = 'Close';
+            } else {
+                document.getElementById('burguer').textContent = 'Menu';
+            }
         });
 
         
