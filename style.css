@@ -9,6 +9,10 @@
 
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     background-color: #222;
     height: 82px;
@@ -43,8 +47,10 @@ menu a{
 main{
     background: var(--Background-Color, #161513);
 }
+
+
 #foto{
-    right: 0;
+    right: -60px;
     position: absolute;
 }
 
@@ -52,7 +58,7 @@ main{
 #avatar{
     padding-top: 40px;
     width: 400px;
-    margin: 40px ;
+    margin: 40px;
 
 }
 
