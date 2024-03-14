@@ -57,7 +57,7 @@ main{
 
 #avatar{
     padding-top: 40px;
-    width: 400px;
+    width: 360px;
     margin: 40px;
 
 }
@@ -92,6 +92,7 @@ H3{
     padding-bottom: 50px;
     width: 50%;
     display: flex;
+    z-index: 2;
 }
 
 #botoes{
