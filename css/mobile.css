@@ -1,0 +1,152 @@
+@media (max-width:750px){
+
+    #menu-desk{
+        display: none;
+    }
+
+    #menu-mobile{
+        display: block;
+    }
+
+    #nav-mobile{
+        display: none;
+    }
+
+    #menu-mobile{
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 80px;
+    }
+
+    #menu-mobile img{
+        margin-top: 45px;
+    }
+
+    #menu-mobile img:hover{
+        cursor: pointer;
+    }
+
+    
+    #nav-mobile{
+        display: none;
+        position: absolute;
+        color: white;       
+        text-align: center;
+        margin-top: -5px;
+        width: 50vw;
+        padding: 10px 0px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
+        z-index: 2;
+    }
+
+    #nav-mobile li{
+        padding: 5px;
+        list-style: none;
+    }
+
+    #nav-mobile a{
+        position: relative;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    #avatar img{
+        top: 420px;
+        width:  300px;
+    }
+
+    #inf-name{
+        position: absolute;
+        margin-left: 50px;
+        top: 600px;
+    }
+
+    #contato-ini{
+        position: absolute;
+        top: 800px;
+        left: 50px;
+    }
+
+    #curriculo{
+        text-align: left;
+    }
+
+    #sobre img{
+        margin-top: 350px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #sobremim{
+        margin-top: 450px;
+        left: 50px;
+    
+    }
+
+    #portfolio{
+        margin-top: 1400px; 
+    }
+
+
+    @media (max-width:600px){
+
+
+        #container-port{
+            width: 220px;
+            height: 260px;
+        }
+
+        #container-port h3{
+            font-size: 1em;
+        }
+        
+        #subti-cont{
+            font-size: 0.8em;
+        }
+        
+        #container-port img{
+            width: 220px;
+            margin-top: 60px;
+    
+        }
+
+        #container-for{
+            width: 300px;
+            height: 100px;
+        }
+
+        #container-for h3{
+            font-size: 1em;
+        }
+        
+        #container-for p{
+            font-size: 0.8em;
+        }
+        
+        #date-for{
+            font-size: 0.7em;
+        }
+
+        #botton-conts div{
+            margin: 50px 0px 0px 0px;
+        }
+        
+        #copy{
+            padding: 60px 0px 0px 0px;
+            text-align: center;
+        }
+        
+        #copy a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.8em;
+
+        }
+
+    }
+}
