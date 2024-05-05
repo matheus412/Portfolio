@@ -1,5 +1,4 @@
 @media (max-width:750px){
-
     #menu-desk{
         display: none;
     }
@@ -115,6 +114,10 @@
     
         }
 
+        #skills-icon img{
+            width: 40px;
+        }
+
         #container-for{
             width: 300px;
             height: 100px;
@@ -148,5 +151,19 @@
 
         }
 
+    }
+
+    @media (max-width:350px){
+        #container-for{
+            width: 250px;
+            height: 100px;
+        }
+        #container-for p{
+            padding-top: 5px;
+        }
+        #portfolio{
+            text-align: center;
+            left: -25px; 
+        }
     }
 }
